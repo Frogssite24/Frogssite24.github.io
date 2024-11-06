@@ -39,3 +39,66 @@ h1 {
     box-sizing: border-box;
     color:black;
 }
+
+.carousel-container {
+    position: relative;
+    max-width: 600px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.image-carousel {
+    width: 100%;
+    display: none; 
+}
+
+
+.arrow-left, .arrow-right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+.arrow-left {
+    left: 10px;
+}
+
+.arrow-right {
+    right: 10px;
+}
+
+.image-carousel.active {
+    display: block;
+}
+
+
+
+.box-right {
+    width: 650px;               
+    padding: 25px;  
+    height: 550px;             
+    background-color: #ffffff;    
+    color: #000000;                  
+    border: 1px solid #ffffff;      
+    border-radius: 8px;        
+    position: absolute;
+    right: 20px;                  
+    top: 20px;   
+    margin-top: 70px;
+
+
+}
