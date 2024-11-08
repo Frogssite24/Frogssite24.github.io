@@ -9,10 +9,18 @@
         <h1> Blog das Pelúcias 🐸</h1>
               
         <h3> Marga Frog 🐸 </h3>
-            <div class="carousel">
-                <div class="slides">
-                    <img src="Imagem1marga.jpg" alt="Marga Frog">
-                    <img src="Imagem2marga.jpg" alt="MargaFrog">
+            <div class="carousel-container">
+        <button class="arrow-left" onclick="changeSlide(-1)">&#10094;</button>
+
+        <div class="slides">
+            <img src="Imagem1marga.jpg" class="image-carousel" alt="Imagem 1">
+            <img src="Imagem2marga.jpg" class="image-carousel" alt="Imagem 2">
+        </div>
+
+        <button class="arrow-right" onclick="changeSlide(1)">&#10095;</button>
+    </div>
+
+    <script src="arrow.js"></script>
                 </div>
             </div>
            <h2> Cargo: Apresentadora dos Jornais dos FROGS</h2>
