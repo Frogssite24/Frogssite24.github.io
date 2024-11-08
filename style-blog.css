@@ -15,14 +15,21 @@ h1 {
     box-sizing: border-box;
 }
 
-.slides img  {
-    width: 550px; 
-    height: 500px; 
-    border-radius: 2px; 
-    align-items: right;
-    text-align:right;
-    justify-content:right;
-}
+  .carousel {
+            position: relative;
+            width: 80%; /* largura do carrossel */
+            max-width: 600px; /* largura máxima */
+            margin: auto;
+            overflow: hidden;
+            border-radius: 10px; /* bordas arredondadas */
+
+
+   .carousel img {
+            width: 100%;
+            display: none; /* esconde todas as imagens inicialmente */
+        }
+
+
 
 .h3{
     display: flex;
