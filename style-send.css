@@ -1,0 +1,14 @@
+.botaosent {
+ display: flexbox;        
+    padding: 10px 20px;             
+    font-size: 16px;                
+    color:  white;                    
+    background-color: yellowgreen;       
+    text-decoration: none;          
+    border-radius: 5px;             
+    border: none;                   
+    cursor: pointer;                
+    text-align: center;
+    align-items: center;  
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
